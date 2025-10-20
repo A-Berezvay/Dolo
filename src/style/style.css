@@ -129,6 +129,14 @@ section {
   margin-bottom: 40px;
 }
 
+.price {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #6b4c2f;
+  margin-bottom: 10px;
+}
+
+
 .price-list {
   display: grid;
   gap: 30px;
@@ -148,14 +156,6 @@ section {
   margin-bottom: 10px;
   color: #333;
 }
-
-.price-item p {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #6b4c2f;
-}
-
-
 
 /* Gallery */ 
 #galeria {
@@ -183,6 +183,36 @@ section {
 .gallery img:hover {
   transform: scale(1.02);
 }
+
+#video {
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+#video h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+#video p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.video-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
 
 /* Footer */
 footer {
